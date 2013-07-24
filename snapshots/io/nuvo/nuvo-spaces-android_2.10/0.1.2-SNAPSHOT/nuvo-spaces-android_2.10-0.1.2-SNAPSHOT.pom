@@ -29,23 +29,12 @@
             <artifactId>nuvo-core-android_2.10</artifactId>
             <version>0.1.2-SNAPSHOT</version>
         </dependency>
-        <dependency>
-            <groupId>io.nuvo</groupId>
-            <artifactId>nuvo-core_2.10</artifactId>
-            <version>0.1.2</version>
-        </dependency>
     </dependencies>
     <repositories>
         <repository>
             <id>nuvoiomavenrepo</id>
             <name>nuvo.io maven repo</name>
             <url>http://nuvo-io.github.com/mvn-repo/snapshots/</url>
-            <layout>default</layout>
-        </repository>
-        <repository>
-            <id>nuvoioIvy2localrepo</id>
-            <name>nuvo.io Ivy2 local repo</name>
-            <url>/Users/angelo/.ivy2/local/</url>
             <layout>default</layout>
         </repository>
         <repository>
