@@ -37,11 +37,5 @@
             <url>http://nuvo-io.github.com/mvn-repo/snapshots/</url>
             <layout>default</layout>
         </repository>
-        <repository>
-            <id>nuvoiomavenrepo</id>
-            <name>nuvo.io maven repo</name>
-            <url>http://nuvo-io.github.com/mvn-repo/snapshots/</url>
-            <layout>default</layout>
-        </repository>
     </repositories>
 </project>
