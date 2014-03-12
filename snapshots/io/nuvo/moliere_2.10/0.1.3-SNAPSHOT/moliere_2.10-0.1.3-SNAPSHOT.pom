@@ -2,12 +2,12 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.nuvo</groupId>
-    <artifactId>plotty-typelib_2.10</artifactId>
+    <artifactId>moliere_2.10</artifactId>
     <packaging>jar</packaging>
-    <description>plotty-typelib</description>
+    <description>moliere</description>
     <url>http://nuvo.io</url>
-    <version>1.0</version>
-    <name>plotty-typelib</name>
+    <version>0.1.3-SNAPSHOT</version>
+    <name>moliere</name>
     <organization>
         <name>io.nuvo</name>
         <url>http://nuvo.io</url>
@@ -19,9 +19,20 @@
             <version>2.10.3</version>
         </dependency>
         <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest_2.10</artifactId>
+            <version>1.9.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
             <groupId>org.opensplice.osplj</groupId>
             <artifactId>osplj</artifactId>
             <version>2.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.netflix.rxjava</groupId>
+            <artifactId>rxjava-scala</artifactId>
+            <version>0.16.0</version>
         </dependency>
     </dependencies>
 </project>

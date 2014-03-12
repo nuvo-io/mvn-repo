@@ -2,12 +2,12 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.nuvo</groupId>
-    <artifactId>plotty-typelib_2.10</artifactId>
+    <artifactId>ishapes-typelib_2.10</artifactId>
     <packaging>jar</packaging>
-    <description>plotty-typelib</description>
+    <description>ishapes-typelib</description>
     <url>http://nuvo.io</url>
-    <version>1.0</version>
-    <name>plotty-typelib</name>
+    <version>2.0.0</version>
+    <name>ishapes-typelib</name>
     <organization>
         <name>io.nuvo</name>
         <url>http://nuvo.io</url>
