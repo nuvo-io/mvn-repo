@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>io.nuvo.kaptcha</groupId>
+    <artifactId>kaptcha_2.10</artifactId>
+    <packaging>jar</packaging>
+    <description>kaptcha</description>
+    <url>http://nuvo.io</url>
+    <version>2.3.3</version>
+    <name>kaptcha</name>
+    <organization>
+        <name>io.nuvo.kaptcha</name>
+        <url>http://nuvo.io</url>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.10.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.jhlabs</groupId>
+            <artifactId>filters</artifactId>
+            <version>2.0.235</version>
+        </dependency>
+    </dependencies>
+</project>
