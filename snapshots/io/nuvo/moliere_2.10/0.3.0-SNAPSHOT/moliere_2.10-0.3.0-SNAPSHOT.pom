@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>io.nuvo</groupId>
+    <artifactId>moliere_2.10</artifactId>
+    <packaging>jar</packaging>
+    <description>moliere</description>
+    <url>http://nuvo.io</url>
+    <version>0.3.0-SNAPSHOT</version>
+    <name>moliere</name>
+    <organization>
+        <name>io.nuvo</name>
+        <url>http://nuvo.io</url>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.10.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.prismtech.cafe</groupId>
+            <artifactId>cafe</artifactId>
+            <version>2.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.netflix.rxjava</groupId>
+            <artifactId>rxjava-scala</artifactId>
+            <version>0.16.0</version>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>VortexSnapshotRepo</id>
+            <name>Vortex Snapshot Repo</name>
+            <url>https://dl.dropboxusercontent.com/u/19238968/devel/mvn-repo/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
