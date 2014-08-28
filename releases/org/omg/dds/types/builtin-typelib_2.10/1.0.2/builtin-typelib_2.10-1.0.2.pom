@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.omg.dds.types</groupId>
+    <artifactId>builtin-typelib_2.10</artifactId>
+    <packaging>jar</packaging>
+    <description>builtin-typelib</description>
+    <version>1.0.2</version>
+    <name>builtin-typelib</name>
+    <organization>
+        <name>org.omg.dds.types</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.10.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.prismtech.cafe</groupId>
+            <artifactId>cafe</artifactId>
+            <version>2.0.0</version>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>VortexSnapshotRepo</id>
+            <name>Vortex Snapshot Repo</name>
+            <url>https://dl.dropboxusercontent.com/u/19238968/devel/mvn-repo/releases/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
