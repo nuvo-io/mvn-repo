@@ -28,7 +28,7 @@
         <repository>
             <id>VortexSnapshotRepo</id>
             <name>Vortex Snapshot Repo</name>
-            <url>https://dl.dropboxusercontent.com/u/19238968/devel/mvn-repo/vortex/</url>
+            <url>https://dl.dropboxusercontent.com/u/19238968/vortex/mvn-repo/</url>
             <layout>default</layout>
         </repository>
     </repositories>
